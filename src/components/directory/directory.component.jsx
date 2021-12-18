@@ -1,6 +1,6 @@
 import { Component } from 'react';
 
-import MenuItem from '../menu-item/menu-item.component.jsx';
+import MenuItem from '../menu-item/menu-item.component';
 import { directory } from './directory.data';
 
 import './directory.styles.scss';
