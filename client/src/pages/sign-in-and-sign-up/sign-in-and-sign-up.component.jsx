@@ -17,7 +17,7 @@ const SignInAndSignUpPage = () => {
             <div>
                 {isSignIn ? <SignIn /> : <SignUp />}
                 <h4 className="sign-in-or-sign-up" onClick={toggleForm}>
-                    Do not have an account? Sign Up here.
+                    {isSignIn ? 'Do not have account? Sign Up here.' : 'Have account? Sign In Here.'}
                 </h4>
             </div>
         </div>
