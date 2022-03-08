@@ -1,7 +1,7 @@
 .sign-in-and-sign-up {
-    // width: 850px;
-    display: flex;
-    justify-content: center;
+    width: 450px;
+    // display: flex;
+    // justify-content: center;
     margin: 50px auto;
 }
 
@@ -11,4 +11,11 @@
     text-decoration: underline;
     color: #4285F4;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 600px)  {
+    .sign-in-and-sign-up {
+        width: 100%;
+        padding: 1rem;
+    }
 }
